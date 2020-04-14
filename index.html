@@ -11,7 +11,31 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 
 <!-- myStyles -->
-    <link rel="stylesheet" href="master.css">
+    <style media="screen">
+    body,h1,h2,h3,h4,h5,h6{
+      font-family: "Montserrat",sans-serif;
+
+    }
+    /* .w3-row-padding img */
+    /* class */
+    .w3-row-padding img{
+      margin-bottom: 12px;
+    }
+    .w3-sidebar{
+      width: 120px;
+      background: #222;   /*dark*/
+    }
+    /* id element */
+    #main{
+      margin-left: 120px;
+    }
+    @media only screen and (max-width:600px) {
+      #main{
+        margin-left: 0;
+      }
+    }
+
+    </style>
 <!-- title -->
     <title>MyPortfolio</title>
 
@@ -19,12 +43,12 @@
   <body class="w3-black">
     <!-- this is for DESKTOP  web -->
     <nav class="w3-bar-item w3-button w3-padding-large w3-black">
+      <!-- <div class="w3-bar-item w3-button w3-padding-large w3-black"> -->
+
+
       <!-- myImage -->
-      <!-- <img src="#" alt="profile pic" style="width:100%;height:auto;"> -->
-      <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-black">
-          <i class="fa fa-home w3-xxlarge"></i>
-          <p>Home</p>
-      </a>
+      <!--  -->
+      <img src="bharat.jpg" alt="profile pic" style="width:120px;height:auto;">
       <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
         <i class="fa fa-user w3-xxlarge"></i>
         <p>About</p>
@@ -41,6 +65,7 @@
         <i class="fa fa-ellipsis-h w3-xxlarge"></i>
         <p>More</p>
       </a>
+      <!-- </div> -->
     </nav>
 <!-- this is for moble web -->
   <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
@@ -55,27 +80,29 @@
 <!-- PageContent -->
 <div class="w3-padding-large" id="main">
 <!-- head -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-      <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Bharat Paliwal.</h1>
+  <header class="w3-container w3-padding-32 w3-center w3-black">
+      <h1 class="w3-jumbo"> Bharat Paliwal.</h1>
       <p> Web Developer and Competitive Coder</p>
-      <img src="Bharat_1.jpg" alt="it's me" class="w3-image" width="992" height="1108" >
+      <img src="Bharat_1.jpg" style="border-radius:100px; "  alt="it's me" class="w3-image" width="628" height="1024" >
   </header>
 <!-- About <section> -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">My Intro</h2>
-    <p>Hi,myself <b>Bharat Paliwal</b> a Web developer and
-    a rookie Competitive coder.I'm looking foward to work in the development
+    <h2 class="w3-text-light-grey" style="font-size: 26px;">My Intro</h2>
+    <p style="font-size: 20px;">Hi,myself <b>Bharat Paliwal</b> a Web developer and
+    a rookie Competitive coder. I'm looking forward to work in the development
     of eductional Web which can provide reliable information to every student
-    according to their requirements.Currently pursuiting a ECE(Electronics and communication)B.Tech degree at The LNM
+    according to their requirements.Currently pursuiting a ECE (Electronics and communication) B.Tech degree at The LNM
   Institute of Information Technology.</p>
 
-    <h3 class="w3-text-light-grey">My Skills</h3>
-      <p class="w3-wide">Web Design(Front-End-developer)</p>
+    <h2 class="w3-text-light-grey" style="font-size: 26px;"> <b>My Skills</b> </h2>
+      <p class="w3-wide"style="font-size: 20px;"> Web Design <b>(Front-End-developer)</b> </p>
       <div class="w3-white">
         <div class="w3-dark-grey" style="height:28px;width:90%"></div>
         </div>
-        <h4>Programming Languages</h5>
-      <p class="w3-wide">C++,c++14,C</p>
+        <br>
+
+        <h4 style="font-size: 26px;">Programming Languages</h4>
+      <p class="w3-wide">C++,C</p>
       <div class="w3-white">
         <div class="w3-dark-grey" style="height:28px;width:92%"></div>
         </div>
@@ -95,23 +122,23 @@
                   Rating on HackerEarth <a href="http://www.hackerearth.com/@hydra2">CheckMe</a>
                 </div>
                 <div class="w3-quarter w3-section">
-                  <span class="w3-xlarge">5+</span><br>
-                  Projects Done
+                  <span class="w3-xlarge">15+</span><br>
+                    Repositories on GitHub <br> <a href="https://github.com/bharatpaliwal-169/Python_is_lob">CheckMe</a>
                 </div>
                 <div class="w3-quarter w3-section">
                   <span class="w3-xlarge">20+</span><br>
-                  Participated in Competitive Contests(codeJam'20,March Easy'20, Code_Lnm16.0,17.0,18.0 etc..)
+                  Participated in Competitive Contests
                 </div>
                 <div class="w3-quarter w3-section">
                   <span class="w3-xlarge">5 Stars</span><br>
-                  C,C++ Hackerrank <br><a href="https://www.hackerrank.com/bpcollege18">CheckMe</a>
+                  C,C++,Python3 Hackerrank <br><a href="https://www.hackerrank.com/bpcollege18">CheckMe</a>
                 </div>
             </div>
 
     </div><!--Achievments-->
 
 <!-- connections -->
-    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="contact">
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="contact" style="font-size: 24px;">
       <h2 class="w3-text-light-grey">Contact ME</h2>
       <hr style="width:200px" class="w3-opacity">
       <div class="w3-section">
@@ -125,19 +152,20 @@
     </div><!-- connect-->
 <!-- more -->
     <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="more">
-      <h2 class="w3-text-light-grey">More</h2>
-      <h5>There are few more thing that I love to do:</h5>
-      <ul>
-        <li>Badminton<a href="badminton.html">  <span style="color:lightblue">clickHere</span></a></li>
-        <li>PUBG <a href="pubg.html">  <span style="color:lightblue">clickHere</span></a></li>
-        <li>many other online games</li>
+      <h2 style="font-size: 26px;" class="w3-text-light-grey">More</h2>
+      <h5 style="font-size: 23px;">MY Hobbies:</h5>
+        <p>I'm a sportsperson and a gamer too,</p>
+      <ul style="font-size: 20px;">
+        <li>Badminton<a href="badminton.html">  <span style="color:lightblue">  clickHere</span></a></li>
+        <li>PUBG <a href="pubg.html">  <span style="color:lightblue">  clickHere</span></a></li>
+        <li>many other online games and outdoor games</li>
       </ul>
 
-      <p>Beside gameing their are some more things that I really love to do..</p>
-      <ul>
-        <li>research on "Humanity and ethics"</li>
-        <li>reading sacred texts and reasons behind them</li>
-        <li>importance of each and every realtionship in our life.</li>
+      <p style="font-size: 20px;">Beside gameing their are some more things that I really look forward:</p>
+      <ul style="font-size: 20px;">
+        <li>Research on "Humanity and ethics"</li>
+        <li>Reading sacred texts and myths behind them</li>
+        <li>Importance of each and every realtionship in our life.</li>
       </ul>
     </div><!-- more -->
 
@@ -145,16 +173,18 @@
 
   <!-- Footer -->
 <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-  <button><a href="https://www.facebook.com/bharat.paliwal.3958914"><i class="fa fa-facebook-official w3-hover-opacity"> </i></a> </button>
+  <h3>Connect with me:</h3>
+  <button style="font-size:40px"><a href="https://www.facebook.com/bharat.paliwal.3958914"><i class="fa fa-facebook-official w3-hover-opacity"> </i></a> </button>
 
-  <button > <a href="https://twitter.com/BharatP58380618"><i class="fa fa-twitter w3-hover-opacity"></i></a> </button>
+  <button style="font-size:40px"> <a href="https://twitter.com/BharatP58380618"><i class="fa fa-twitter w3-hover-opacity"></i></a> </button>
 
-  <button> <a href="https://www.linkedin.com/in/bharat-paliwal-ab7169179/"><i class="fa fa-linkedin w3-hover-opacity"></i></a> </button>
+  <button style="font-size:40px"> <a href="https://www.linkedin.com/in/bharat-paliwal-ab7169179/"><i class="fa fa-linkedin w3-hover-opacity"></i></a> </button>
 
-  <button type="button" name="button"> <a href="https://www.instagram.com/_bharat_231/"> <i class="fa fa-instagram w3-hover-opacity"></i> </a> </button>
+  <button style="font-size:40px"> <a href="https://www.instagram.com/_bharat_231/"> <i class="fa fa-instagram w3-hover-opacity"></i> </a> </button>
 
 <!-- End footer -->
 </footer>
+
 
 <!-- END PAGE CONTENT -->
 
