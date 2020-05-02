@@ -1,0 +1,24 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "this is myproject to use npm modules",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharatpaliwal-169/myportfolio.github.io.git"
+  },
+  "author": "BharatPaliwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharatpaliwal-169/myportfolio.github.io/issues"
+  },
+  "homepage": "https://github.com/bharatpaliwal-169/myportfolio.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
